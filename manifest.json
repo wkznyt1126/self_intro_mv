@@ -1,0 +1,8 @@
+{
+    "manifest_version": 2,
+    "name": "My Extension",
+    "version": "1.0",
+    "web_accessible_resources": [
+        "my-html-file.html"
+    ]
+}
