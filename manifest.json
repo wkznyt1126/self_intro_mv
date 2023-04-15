@@ -2,7 +2,11 @@
     "manifest_version": 2,
     "name": "My Extension",
     "version": "1.0",
-    "web_accessible_resources": [
-        "my-html-file.html"
+    "permissions": ["video/sample.mp4"],
+    "content_scripts": [
+        {
+        "matches": ["*://www.yodobashi.com/*"],
+        "js": ["play.js"]
+        }
     ]
 }
