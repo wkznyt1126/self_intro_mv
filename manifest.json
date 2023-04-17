@@ -2,11 +2,13 @@
     "manifest_version": 2,
     "name": "My Extension",
     "version": "1.0",
-    "permissions": ["video/sample.mp4"],
-    "content_scripts": [
-        {
-        "matches": ["*://www.yodobashi.com/*"],
-        "js": ["play.js"]
-        }
-    ]
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_title": "My Extension",
+        "default_popup": "popup.html"
+    }
 }
