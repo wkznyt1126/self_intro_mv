@@ -1,11 +1,9 @@
 # self_intro_mv
 
-自己紹介動画に使ったプログラム
+## 概要
+    - 自己紹介動画用のURL検知、遷移コード
 
 ## ファイル構成
-    - Est_emotion
-        - .py
-    - URL_detec
-        - background.js
-        - manifest.json
+    - background.js
+    - manifest.json
     - README.md
